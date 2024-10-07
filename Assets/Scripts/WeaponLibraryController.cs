@@ -1,8 +1,4 @@
-using System;
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.Serialization;
 using UnityEngine.UI;
 
 public class WeaponLibraryController : MonoBehaviour
@@ -10,7 +6,6 @@ public class WeaponLibraryController : MonoBehaviour
    [SerializeField] private Button[] buttons;
    [SerializeField] private Button backButton;
    [SerializeField] private GameObject[] gameObjectsPopup;
-   [SerializeField] private GameObject  splPopup;
    
    private Color _defaultColor = Color.white;
    private Color _selectedColor  = Color.yellow;
@@ -22,11 +17,7 @@ public class WeaponLibraryController : MonoBehaviour
          int index = i;
          buttons[i].onClick.AddListener(() => EventClicked(index));
       }
-      backButton.onClick.AddListener(() =>
-      {
-         gameObjectsPopup[0].SetActive(true);
-         this.gameObject.SetActive(false);
-      });
+
       ResetButtonColors();
    }
 
