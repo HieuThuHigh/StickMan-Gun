@@ -28,7 +28,7 @@ public class PlayerController : MonoBehaviour
         
 
         // Kiểm tra xem nhân vật có đứng trên mặt đất không
-        isGrounded = Physics2D.OverlapCircle(groundCheck.position, 0.1f, groundLayer);
+       isGrounded = Physics2D.OverlapCircle(groundCheck.position, 0.5f  , groundLayer);
     }
 
     // Hàm điều khiển di chuyển nhân vật
@@ -36,6 +36,7 @@ public class PlayerController : MonoBehaviour
     {
         // Nhận đầu vào từ bàn phím (trái/phải)
         float moveInput = Input.GetAxis("Horizontal");
+        Debug.Log("Giá trị moveInput: " + moveInput); // In giá trị ra console
 
         // Di chuyển nhân vật theo trục x dựa trên đầu vào
         rb.velocity = new Vector2(moveInput * _moveSpeed, rb.velocity.y);
@@ -44,10 +45,12 @@ public class PlayerController : MonoBehaviour
         if (moveInput > 0 && !isFacingRight)
         {
             Flip();
+            Debug.Log("Nhân vật di chuyển sang phải!");
         }
         else if (moveInput < 0 && isFacingRight)
         {
             Flip();
+            Debug.Log("Nhân vật di chuyển sang trái!");
         }
     }
 

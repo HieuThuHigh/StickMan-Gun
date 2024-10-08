@@ -11,6 +11,7 @@ public class PlayerCustomization : MonoBehaviour
     public SpriteRenderer face;     // Renderer của mặt
     public SpriteRenderer body;     // Renderer của thân
     public SpriteRenderer leftArm;  // Renderer của tay trái
+    public SpriteRenderer gun;  // Renderer của gun
     public SpriteRenderer rightArm; // Renderer của tay phải
     public SpriteRenderer leftLeg;  // Renderer của chân trái
     public SpriteRenderer rightLeg; // Renderer của chân phải
@@ -21,6 +22,7 @@ public class PlayerCustomization : MonoBehaviour
     public Sprite[] faceSprites;
     public Sprite[] bodySprites;
     public Sprite[] leftArmSprites;
+    public Sprite[] gunSprites;
     public Sprite[] rightArmSprites;
     public Sprite[] leftLegSprites;
     public Sprite[] rightLegSprites;
@@ -31,7 +33,8 @@ public class PlayerCustomization : MonoBehaviour
     public Vector3 facePosition = new Vector3(0, -0.24f, 0); // Vị trí mặt
     public Vector3 bodyPosition = new Vector3(-0.04f, -0.38f, 0); // Vị trí thân
     public Vector3 leftArmPosition = new Vector3(0.3f, -0.35f, 0); // Vị trí tay trái
-    public Vector3 rightArmPosition = new Vector3(0.21f, -0.35f, 0);  // Vị trí tay phải
+    public Vector3 gunPosition = new Vector3(0.393f, -0.46f, 0); // Vị trí tay trái
+    public Vector3 rightArmPosition = new Vector3(0.214f, -0.35f, 0);  // Vị trí tay phải
     public Vector3 leftLegPosition = new Vector3(0, -0.64f, 0); // Vị trí chân trái
     public Vector3 rightLegPosition = new Vector3(0f, -0.64f, 0); // Vị trí chân phải
 
@@ -43,6 +46,7 @@ public class PlayerCustomization : MonoBehaviour
         head.transform.position = headPosition;
         body.transform.position = bodyPosition;
         leftArm.transform.position = leftArmPosition;
+        gun.transform.position = gunPosition;
         rightArm.transform.position = rightArmPosition;
         leftLeg.transform.position = leftLegPosition;
         rightLeg.transform.position = rightLegPosition;
@@ -89,6 +93,13 @@ public class PlayerCustomization : MonoBehaviour
     }
 
     public void ChangeRightArm(int index)
+    {
+        if (index >= 0 && index < rightArmSprites.Length)
+        {
+            rightArm.sprite = rightArmSprites[index];
+        }
+    }
+    public void ChangeGunArm(int index)
     {
         if (index >= 0 && index < rightArmSprites.Length)
         {
