@@ -11,6 +11,6 @@ public class SplController : MonoBehaviour
 
     private void Start()
     {
-        weaponLibraryBtn.onClick.AddListener();
+        //weaponLibraryBtn.onClick.AddListener();
     }
 }
