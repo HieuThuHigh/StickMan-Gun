@@ -1,5 +1,9 @@
 fileFormatVersion: 2
+<<<<<<< HEAD:Assets/Art/sung/python/26.png.meta
 guid: 3cc8f2f88ee756143a1d4a90d8ef95c6
+=======
+guid: 163866c8ea0a4964c859e11ea0078b23
+>>>>>>> origin/manhne04:Assets/Games/Art/sung/python/26.png.meta
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -94,6 +98,22 @@ TextureImporter:
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
+<<<<<<< HEAD:Assets/Art/sung/python/26.png.meta
+=======
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+>>>>>>> origin/manhne04:Assets/Games/Art/sung/python/26.png.meta
     buildTarget: Android
     maxTextureSize: 2048
     resizeAlgorithm: 0

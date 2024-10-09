@@ -1,5 +1,9 @@
 fileFormatVersion: 2
+<<<<<<< HEAD:Assets/Art/sung/sawnoff/29.png.meta
 guid: da0a05765762ae54998dfd20b85f0313
+=======
+guid: 1b708de61463d604bb3487fa6438f05b
+>>>>>>> origin/manhne04:Assets/Games/Art/sung/sawnoff/29.png.meta
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -94,6 +98,22 @@ TextureImporter:
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
+<<<<<<< HEAD:Assets/Art/sung/sawnoff/29.png.meta
+=======
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+>>>>>>> origin/manhne04:Assets/Games/Art/sung/sawnoff/29.png.meta
     buildTarget: Android
     maxTextureSize: 2048
     resizeAlgorithm: 0

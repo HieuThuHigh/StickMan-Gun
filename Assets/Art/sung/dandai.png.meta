@@ -1,5 +1,9 @@
 fileFormatVersion: 2
+<<<<<<< HEAD:Assets/Art/sung/dandai.png.meta
 guid: c744063b6928f6641b933f99e91519b5
+=======
+guid: 640ad6c8e11e5c74d9c85f5e76aef112
+>>>>>>> origin/manhne04:Assets/Games/Art/sung/dandai.png.meta
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -94,6 +98,22 @@ TextureImporter:
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
+<<<<<<< HEAD:Assets/Art/sung/dandai.png.meta
+=======
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+>>>>>>> origin/manhne04:Assets/Games/Art/sung/dandai.png.meta
     buildTarget: Android
     maxTextureSize: 2048
     resizeAlgorithm: 0

@@ -1,5 +1,9 @@
 fileFormatVersion: 2
+<<<<<<< HEAD:Assets/Art/sung/glock/67.png.meta
 guid: 052b44b7dcd5db94098e066182e85412
+=======
+guid: 906a3b641fb9ea441b3fdea327671383
+>>>>>>> origin/manhne04:Assets/Games/Art/sung/glock/67.png.meta
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -94,6 +98,22 @@ TextureImporter:
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
+<<<<<<< HEAD:Assets/Art/sung/glock/67.png.meta
+=======
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+>>>>>>> origin/manhne04:Assets/Games/Art/sung/glock/67.png.meta
     buildTarget: Android
     maxTextureSize: 2048
     resizeAlgorithm: 0

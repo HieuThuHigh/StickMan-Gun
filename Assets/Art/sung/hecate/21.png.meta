@@ -1,5 +1,9 @@
 fileFormatVersion: 2
+<<<<<<< HEAD:Assets/Art/sung/hecate/21.png.meta
 guid: b46644d03edb93a4ea8a5af3003c2fd3
+=======
+guid: d4d6b2edb92057d4b8c70efef402de3c
+>>>>>>> origin/manhne04:Assets/Games/Art/sung/hecate/21.png.meta
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -94,6 +98,22 @@ TextureImporter:
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
+<<<<<<< HEAD:Assets/Art/sung/hecate/21.png.meta
+=======
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+>>>>>>> origin/manhne04:Assets/Games/Art/sung/hecate/21.png.meta
     buildTarget: Android
     maxTextureSize: 2048
     resizeAlgorithm: 0

@@ -22,6 +22,7 @@ public class SplController : MonoBehaviour
         weaponLibButton.onClick.AddListener(WeaponLib);
         challengButton.onClick.AddListener(Challenge);
         gameSetupButton.onClick.AddListener(GameSetup);
+        weaponLibButton.onClick.AddListener(WeaponLib);
     }
 
     void SoundEvent()

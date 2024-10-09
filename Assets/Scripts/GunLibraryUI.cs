@@ -7,18 +7,18 @@ namespace DefaultNamespace
     public class GunLibraryUI : MonoBehaviour
     {
         [SerializeField] private Image img;
-        [SerializeField] private WeaponInfo _weaponInfo;
-        [SerializeField] private Button _button;
+        [SerializeField] private WeaponInfo weaponInfo;
+        [SerializeField] private Button button;
 
         public WeaponInfo WeaponInfo
         {
-            get => _weaponInfo;
-            set => _weaponInfo = value;
+            get => weaponInfo;
+            set => weaponInfo = value;
         }
 
         private void Awake()
         {
-            _button.onClick.AddListener(() =>
+            button.onClick.AddListener(() =>
             {
                 
             });
