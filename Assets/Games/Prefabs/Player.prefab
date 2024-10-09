@@ -801,10 +801,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c209d67426322ad47bc85973ce224ba7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  groundCheck: {fileID: 4987774095787099573, guid: 9ad5ebf590da9aa499ed668d9aa64f35, type: 3}
-  groundLayer:
-    serializedVersion: 2
-    m_Bits: 128
+  isFacingRight: 1
 --- !u!70 &4495945926904183766
 CapsuleCollider2D:
   m_ObjectHideFlags: 0
